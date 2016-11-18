@@ -36,7 +36,7 @@
     const __ = { '@@functional/placeholder': true };
 
     /* eslint-disable no-unused-vars */
-    var _arity = function _arity(n, fn) {
+    let _arity = function _arity(n, fn) {
         /* eslint-disable no-unused-vars */
         switch (n) {
         case 0:
