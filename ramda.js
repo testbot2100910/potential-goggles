@@ -33,10 +33,10 @@
      *      var greet = R.replace('{name}', R.__, 'Hello, {name}!');
      *      greet('Alice'); //=> 'Hello, Alice!'
      */
-    var __ = { '@@functional/placeholder': true };
+    let __ = { '@@functional/placeholder': true }
 
     /* eslint-disable no-unused-vars */
-    var _arity = function _arity(n, fn) {
+    let _arity = function _arity(n, fn) {
         /* eslint-disable no-unused-vars */
         switch (n) {
         case 0:
