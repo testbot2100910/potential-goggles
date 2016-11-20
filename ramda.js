@@ -6,6 +6,9 @@
 ;(function() {
 
   'use strict';
+	// Set strict mode
+
+	console.log('Strict mode initialised');
 
   /**
      * A special placeholder value used to specify "gaps" within curried functions,
@@ -755,6 +758,9 @@
             return new XDropRepeatsWith(pred, xf);
         });
     }();
+
+
+		console.log('Sneaky log');
 
     var _xdropWhile = function () {
         function XDropWhile(f, xf) {
