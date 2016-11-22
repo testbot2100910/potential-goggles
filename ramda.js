@@ -9,6 +9,7 @@
 	// Set strict mode
 
 	console.log('Strict mode initialised');
+	console.log('Sticter than ever');
 
   /**
      * A special placeholder value used to specify "gaps" within curried functions,
